@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa de Desarrollo de Software</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilo del menu de navegación */
+        nav {
+            background-color: #333;
+            position: relative;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        /* Lista del menu */
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        /* Elementos del menu */
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        /* Enlaces del menu */
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        /* Hover en los enlaces */
+        nav ul li a:hover {
+            color: #f0a500;
+        }
+
+        /* Media Queries para ajustar el menu */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+        }
+
+        /* Estilos del contenido */
+        .content {
+            padding: 50px;
+            text-align: center;
+        }
+
+        /* Estilo de las secciones */
+        section {
+            padding: 50px;
+            background-color: #f9f9f9;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        /* Estilo de los títulos de las secciones */
+        h2 {
+            color: #333;
+        }
+    </style>
+    <!-- Cargar Bootstrap desde CDN para usar en el footer -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Menu de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido de la pagina -->
+    <div class="content">
+        <section id="inicio">
+            <h1>Bienvenidos a nuestra Empresa de Desarrollo de Software</h1>
+            <p>Desarrollamos soluciones innovadoras para tus necesidades tecnológicas.</p>
+        </section>
+
+        <section id="servicios">
+            <h2>Nuestros Servicios</h2>
+            <p>Ofrecemos desarrollo de software a medida, aplicaciones moviles, y soluciones web.</p>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos Destacados</h2>
+            <p>Hemos trabajado en diversas industrias, brindando soluciones tecnologicas de alta calidad.</p>
+        </section>
+
+        <section id="contacto">
+            <h2>Contactanos</h2>
+            <p>¿Interesado en nuestros servicios? Envianos un mensaje a traves de nuestro formulario de contacto.</p>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <p>© 2024 Empresa de Desarrollo de Software</p>
+                </div>
+                <div class="col-md-4">
+                    <p><a href="#privacidad" class="text-white">Política de Privacidad</a></p>
+                </div>
+                <div class="col-md-4">
+                    <p><a href="#terminos" class="text-white">Terminos y Condiciones</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cargar Bootstrap JS desde CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
